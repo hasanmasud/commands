@@ -1,0 +1,2 @@
+#setting class path variable M2_REPO
+mvn -Declipse.workspace="F:\My Work\MyGitHubWorkspace" eclipse:configure-workspace
