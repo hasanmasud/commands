@@ -1,0 +1,12 @@
+kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 10 --topic testtopic1
+kafka-topics.bat --describe --zookeeper localhost:2181 --topic my-replicated-topic
+kafka-topics.bat --list --zookeeper localhost:2181
+
+
+
+producer and consumer
+--------------------------------------------------------------------------------------------------------------
+kafka-console-producer.bat --broker-list localhost:9092 --topic my-replicated-topic
+kafka-console-consumer.bat --bootstrap-server localhost:9092 --from-beginning --topic my-replicated-topic
+
+
