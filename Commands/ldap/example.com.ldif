@@ -1,0 +1,33 @@
+version: 1
+
+dn: dc=example,dc=com
+objectClass: dcObject
+objectClass: organization
+objectClass: top
+dc: example
+o: Example, Inc.
+description: My wonderful company as much text as you want to place in this 
+ line up to 32K continuation data for the line above must have &lt;CR> or &l
+ t;CR>&lt;LF> i.e. ENTER works on both Windows and *nix system - new line MU
+ ST begin with ONE SPACE
+
+dn: cn=Masud Masud,ou=people,dc=example,dc=com
+objectclass: organizationalPerson
+objectclass: person
+objectclass: inetOrgPerson
+objectclass: top
+cn: Masud Hasan
+cn: Masud Masud
+sn: Hasan
+description: this is masud hasan
+mail: masudbook@gmail.com
+uid: masudhasan
+userpassword:: e1NTSEF9eXlUc1RJVWNtcTV5RE1uM0J0TDZrNUlCek1FWnhBRkpBODhrL0E9P
+ Q==
+
+dn: ou=people,dc=example,dc=com
+objectclass: organizationalunit
+objectclass: top
+ou: people
+description: All people in organisation
+
