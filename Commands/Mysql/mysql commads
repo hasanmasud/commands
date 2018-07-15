@@ -1,0 +1,22 @@
+installation:
+......................................
+sudo apt-get update
+sudo apt-get install mysql-server
+mysql_secure_installation
+
+check
+.......................................
+systemctl status mysql.service
+mysqladmin -p -u root version
+
+
+start as servcie
+.......................................
+sudo systemctl start mysql
+sudo systemctl stop mysql
+
+
+
+shell:
+.......................................
+mysql -u root -p
