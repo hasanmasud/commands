@@ -1,0 +1,14 @@
+user.name=Masud Hasan
+user.email=<email>
+web.browser=google-chrome
+core.editor=vim
+core.autocrlf=false
+diff.tool=vimdiff
+alias.co=checkout
+alias.br=branch
+alias.ci=commit
+alias.st=status
+alias.last=log -1 HEAD
+
+
+

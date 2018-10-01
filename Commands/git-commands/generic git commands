@@ -1,0 +1,37 @@
+see all branch :
+.....................................................................
+    git branch
+    git checkout -b improve-mapping-to-yaml
+delete a branch
+...........................................................................
+    git branch -d improve-mapping-to-yaml
+
+
+squash a branch :
+.............................................................................   
+    git rebase -i develope HEAD
+    git commit
+    git force push
+
+..................................................................
+    git checkout tags/
+
+    git remote -v
+    git remote set-url origin https://masud.hasan@bitbucket.cloud.ebpi.nl/scm/dgp/edifact-conversie.git
+
+    git checkout -b STO-623-AFTER-UPGRADE
+
+Default git push
+..................................................................
+    git checkout master
+    git fetch origin master
+    git rebase -i origin/master
+    # Squash commits, fix up commit messages etc.
+    git push origin master
+
+Deleting a remote branch or tag
+..................................................................
+git branch -D branch_name
+git push origin :branch_name
+
+
